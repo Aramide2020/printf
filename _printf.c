@@ -1,6 +1,6 @@
-#includE "MAIN.H"
+#include "main.h"
 
-void print_buffer(char buffer[], int *buff_ind)
+void print_buffer(char buffer[], int *buff_ind);
 
 /**
  * _printf - Printf function
@@ -63,4 +63,4 @@ void print_buffer(char buffer[], int *buff_ind)
 		write(1, &buffer[0], *buff_ind);
 
 	*buff_ind = 0;
-}	
+}
